@@ -1,0 +1,1 @@
+The Firebase Realtime Database sometimes throws a `FirebaseError: Expected a valid JSON object.` error even when the data being written appears to be valid JSON. This often occurs when attempting to update a node with a value that Firebase interprets as invalid.
